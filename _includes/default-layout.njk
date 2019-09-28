@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta name='viewport' content='initial-scale=1.0, width=device-width' > 
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> 
+    <link rel='icon' href='/favicon.ico' type='image/x-icon' />
+    <link rel="stylesheet" href="/assets/styles.css">
+    <title>{{title}}</title>
+  
+</head>
+<body >
+
+    <header class='header'>
+        <a href='/' class='logo'>Code Camp Demo</a>
+        <nav  class='header'>
+            <ul class='nav-buttons'>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/sponsor/'>Sponsor</a></li>
+                <li><a href='/conduct/'>Conduct</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class='content'>
+        
+        {{ content | safe }}
+    
+    </main>
+
+    <footer class='footer'>
+        &copy; Vermont Code Camp 2019
+    </footer>
+
+</body>
+</html>
